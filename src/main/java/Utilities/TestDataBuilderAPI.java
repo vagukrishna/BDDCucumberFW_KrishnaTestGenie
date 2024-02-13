@@ -10,7 +10,7 @@ public class TestDataBuilderAPI {
 
     public AddPlace addPlacePayLoad()
     {
-
+    //added comments
         AddPlace ap=new AddPlace();
         ap.setAccuracy(60);
         ap.setAddress("7335 murgan ct");
