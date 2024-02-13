@@ -1,0 +1,85 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.7282,
+        "lng": 62.2729
+    },
+    "accuracy": 60,
+    "name": "House",
+    "phone_number": "378490338",
+    "address": "7335 murgan ct",
+    "website": "https://rahulshettyacademy.com",
+    "types": [
+        "showpark",
+        "shop"
+    ],
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Wed, 07 Feb 2024 19:03:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "e5355f0d8f0f377da4e76a9e5951ded8",
+    "scope": "APP",
+    "reference": "28b9afa4fa1d736b07209c666e2d7e8228b9afa4fa1d736b07209c666e2d7e82",
+    "id": "28b9afa4fa1d736b07209c666e2d7e82"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e5355f0d8f0f377da4e76a9e5951ded8
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=e5355f0d8f0f377da4e76a9e5951ded8
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 07 Feb 2024 19:03:16 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 233
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.7282",
+        "longitude": "62.2729"
+    },
+    "accuracy": "60",
+    "name": "House",
+    "phone_number": "378490338",
+    "address": "7335 murgan ct",
+    "types": "showpark,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "English"
+}
