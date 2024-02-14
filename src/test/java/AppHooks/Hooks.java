@@ -24,7 +24,7 @@ public class Hooks{
         private ConfigReader configReader;
         private Properties prop;
 
-
+//Adding comments
         @Before(order=0,value = "@Skip_scenario")
         public void skip_scenario(Scenario scenario)
         {
